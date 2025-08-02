@@ -1,0 +1,14 @@
+# .gitignore
+
+# Node modules
+client/node_modules/
+server/node_modules/
+
+# Build files
+client/build/
+
+# Logs
+*.log
+
+# Env files (if any)
+.env
