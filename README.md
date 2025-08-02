@@ -81,4 +81,4 @@ npm start
 The app will be running at: http://localhost:3000
 
 💡 Credits
-Built with 💻 by Naveen Kumar P during the She-Can Foundation Internship.
+Built with 💻 by Naveen Kumar P.
