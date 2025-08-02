@@ -1,0 +1,77 @@
+body {
+  margin: 0;
+  font-family: 'Segoe UI', sans-serif;
+  background: linear-gradient(135deg, #e0f7fa, #80deea, #26c6da);
+  background-size: 400% 400%;
+  animation: gradientBG 15s ease infinite;
+  min-height: 100vh;
+  padding-top: 70px;
+}
+
+@keyframes gradientBG {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+h2, h3, p {
+  color: #333;
+}
+
+.btn-primary {
+  background-color: #007bff;
+  border-color: #007bff;
+}
+
+.btn-primary:hover {
+  background-color: #0056b3;
+  border-color: #004085;
+}
+
+a.nav-link:hover {
+  color: #17a2b8;
+}
+
+.btn, .nav-link {
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.btn-primary:hover, .nav-link:hover {
+  background-color: #0056b3; 
+  color: white;
+  text-decoration: none;
+}
+
+.btn-primary:focus, .nav-link:focus {
+  outline: 3px solid #17a2b8;
+  outline-offset: 2px;
+}
+
+.card {
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0,0,0,0.12);
+}
+
+.nav-link.active {
+  font-weight: 600;
+  color: #17a2b8 !important;
+  border-bottom: 2px solid #17a2b8;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.container {
+  padding-left: 15px;
+  padding-right: 15px;
+}
+
+.nav-link:hover {
+  cursor: pointer;
+}
+
