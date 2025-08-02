@@ -41,4 +41,44 @@ This project allows interns to log in with a name, view their referral code, don
 ---
 
 ## 📂 Folder Structure
+intern-portal/
+├── client/ # React frontend
+├── server/ # Express backend
+├── img/ # Screenshots for README
+├── README.md
+├── .gitignore
 
+🔧 How to Run
+1. Clone the Repository
+bash
+Copy code
+git clone https://github.com/Naveen2094/Intern-Portal.git
+cd intern-portal
+
+3. Install Client Dependencies
+bash
+Copy code
+cd client
+npm install
+
+5. Install Server Dependencies
+bash
+Copy code
+cd ../server
+npm install
+
+7. Run the Backend
+bash
+Copy code
+node server.js
+
+9. Run the Frontend
+bash
+Copy code
+cd ../client
+npm start
+
+The app will be running at: http://localhost:3000
+
+💡 Credits
+Built with 💻 by Naveen Kumar P during the She-Can Foundation Internship.
