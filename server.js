@@ -14,15 +14,15 @@ const users = {
     donations: 2700,
     rewards: ["T-shirt", "Certificate", "Shoutout"]
   },
-  "Emily": {
-    name: "Emily",
-    referralCode: "emily2025",
+  "Sathya": {
+    name: "Sathya",
+    referralCode: "sathya2025",
     donations: 1250,
     rewards: ["T-shirt"]
   },
-  "John": {
-    name: "John",
-    referralCode: "john2025",
+  "Vinoth": {
+    name: "Vinoth",
+    referralCode: "vinoth2025",
     donations: 800,
     rewards: []
   }
@@ -44,3 +44,4 @@ app.get('/api/user', (req, res) => {
 app.listen(PORT, () => {
   console.log(`Server running on http://localhost:${PORT}`);
 });
+
