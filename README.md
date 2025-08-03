@@ -40,15 +40,7 @@ This project allows interns to log in with a name, view their referral code, don
 
 ---
 
-## 📂 Folder Structure
-intern-portal/
-├── client/ # React frontend
-├── server/ # Express backend
-├── img/ # Screenshots for README
-├── README.md
-├── .gitignore
-
-🔧 How to Run
+## 🔧 How to Run
 1. Clone the Repository
 bash
 Copy code
